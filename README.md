@@ -1,1 +1,1 @@
-# intro-to-computing-assignment-1
+# intro-to-computing
