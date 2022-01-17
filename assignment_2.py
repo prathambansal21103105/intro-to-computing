@@ -31,8 +31,7 @@ print(index_a)
 
 #(f) first check the index of white spaces and then write the new string by not using those index
 print("(f)")
-remove_whitespaces=(input_string[0:6]+input_string[7:9]+input_string[10]+input_string[12:16]
-                    +input_string[17:26]+input_string[27:35])
+remove_whitespaces=input_string.replace(" ","")
 print(remove_whitespaces)
 
 
@@ -42,9 +41,9 @@ SID=21103105
 department_name="CSE"
 CGPA=9.9
 
-print("Hey,",name,"Here!\n"
-     "My SID is",SID,"\n"
-     "I am from",department_name,"department and my CGPA is",CGPA)
+print("Hey,%s Here!\n"%(name)
+     "My SID is %d"\n"%(SID)
+     "I am from %s department and my CGPA is %d"(department_name,CGPA))
 
 
 #q3
