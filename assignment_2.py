@@ -39,11 +39,11 @@ print(remove_whitespaces)
 name="Pratham Bansal"
 SID=21103105
 department_name="CSE"
-CGPA=9.9
+CGPA="9.9"
 
-print("Hey,%s Here!\n"%(name)
-     "My SID is %d"\n"%(SID)
-     "I am from %s department and my CGPA is %d"(department_name,CGPA))
+print("Hey,%s Here!"%(name))
+print("My SID is %d"%(SID))
+print("I am from %s department and my CGPA is %s"%(department_name,CGPA))
 
 
 #q3
