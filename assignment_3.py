@@ -1,13 +1,14 @@
 #q1
 
 string1=input("Give a string-")
+string2=string1.upper()
 list1=[]
-list2=string1.split()
+list2=string2.split()
 y=len(list2)
 d=dict()
 t=dict()
 if len(list2)==1:          #it is for 1 word
-    for i in string1:      #here i created a list with the characters
+    for i in string2:      #here i created a list with the characters
         list1.append(i) 
     for j in list1:        #here i created a condition where all unique keys
         if j in d:         #get value 1 and when a key repeats it increases 
