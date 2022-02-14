@@ -144,11 +144,11 @@ while(counter<7):
 print("Done!")
 
 #q6
-
+#please run the whole 6th question in one go
 student_info=dict()
 n="y"
 alistsid=[]
-
+listsid=[]
 #(a)
 #here we keep a while loop that goes for infinite times
 #hence it asks sid and names repeatedly and adds them to dictionary
@@ -157,6 +157,10 @@ alistsid=[]
 print("----------------(a)-------------------")
 while(n=="y"):
     sid=int(input("Give the sid (a number):"))
+    if sid in listsid:
+        print("Error!run the code again and enter a different sid!")
+        break
+    listsid.append(sid)
     name=input("Enter your name:")
     student_info[sid]=name
     n=input("give a letter y or n:")
