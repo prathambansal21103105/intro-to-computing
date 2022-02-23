@@ -163,7 +163,7 @@ print("-------------5(B)---------")
 #deleting the record of Viren
 del p1
 print("The record of Viren has been successfully deleted-")
-print(p1)
+
 
 #q6
 #here we use the concept of anagrams
