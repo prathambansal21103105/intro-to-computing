@@ -123,7 +123,7 @@ print("-------------3(F)-------------")
 #max value from the set
 #hash value
 maxval=0
-for i in aset:
+for i in immutable_set:
     if i>maxval:
         maxval=i
 print("The required max value is-",maxval)
