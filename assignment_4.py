@@ -81,30 +81,30 @@ def fun(a,b):
     remainder=a%b
     print("The quotient is-",quotient)
     print("The remainder is-",remainder)
-    list=[quotient,remainder]
-    return list
+    result=[quotient,remainder]
+    return result
 
 a=int(input("Please give the first number-"))
 b=int(input("Please give the second number-"))
-c=fun(a,b)
-print(c)
+result=fun(a,b)
+print(result)
 print("Callable-",callable(fun))
 
 print("-------------3(B)-------------")
 print("a is zero-",a==0)
 print("b is zero-",b==0)
-print("quotient is zero-",c[0]==0)
-print("remainder is zero-",c[1]==0)
+print("quotient is zero-",result[0]==0)
+print("remainder is zero-",result[1]==0)
 if(a==0):
     print("a is zero")
 
 print("-------------3(C)-------------")
 #adding 4 5 6 in the result
 d=[4,5,6]
-c=c+d
-print(c)
+result=result+d
+print(result)
 alist=[]
-for i in c:
+for i in result:
     if i>4:
         alist.append(i)
 print("The values greater than 4-",alist)
@@ -128,6 +128,7 @@ for i in immutable_set:
         maxval=i
 print("The required max value is-",maxval)
 print("The required hash value is-",hash(maxval))
+
 
 #q4
 print("--------------4---------------")
